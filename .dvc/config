@@ -1,5 +1,8 @@
 [core]
     analytics = false
     remote = remote_storage
+[cache]
+    dir = ../../dvc_cache
+    type = symlink
 ['remote "remote_storage"']
     url = /Volumes/COMPIMAG/mblackledge/test_dvc
